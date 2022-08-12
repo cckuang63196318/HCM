@@ -1,4 +1,4 @@
-const cacheVersion = "v1.53";
+const cacheVersion = "v1.54";
 const filesToCache = [
   'static/js/',
   'static/img/',
