@@ -5,7 +5,7 @@
     "background_color": "#070333",
     "display": "fullscreen",
     "scope": "/HCM/",
-    "start_url": "./index.html",
+    "start_url": "/HCM/index.html",
     "icons": [
         {
           "src": "favicon72.png",

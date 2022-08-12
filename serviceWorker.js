@@ -1,21 +1,21 @@
-const cacheVersion = "v1.47";
+const cacheVersion = "v1.48";
 const filesToCache = [
   '/HCM/static/js/',
   '/HCM/static/img/',
   '/HCM/static/fonta/',
   '/HCM/static/css/',
-  'index.html',
-  'manifest.json',
-  'serviceWorker.js',
-  'innolux-offical.png',
-  'personIcon.png',
-  'working.png',
-  'favicon.ico',
-  'favicon72.png',
-  'favicon96.png',
-  'favicon144.png',
-  'favicon192.png',
-  'favicon512.png'
+  '/HCM/index.html',
+  '/HCM/manifest.json',
+  '/HCM/serviceWorker.js',
+  '/HCM/innolux-offical.png',
+  '/HCM/personIcon.png',
+  '/HCM/working.png',
+  '/HCM/favicon.ico',
+  '/HCM/favicon72.png',
+  '/HCM/favicon96.png',
+  '/HCM/favicon144.png',
+  '/HCM/favicon192.png',
+  '/HCM/favicon512.png'
 ];
 
 self.addEventListener("install", event => {
