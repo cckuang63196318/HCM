@@ -1,4 +1,4 @@
-const cacheVersion = "v1.58";
+const cacheVersion = "v1.59";
 const filesToCache = [
   'index.html',
   'manifest.json',
@@ -12,10 +12,10 @@ const filesToCache = [
   'favicon144.png',
   'favicon192.png',
   'favicon512.png',
-  './static/js/*',
-  './static/img/*',
-  './static/fonta/*',
-  './static/css/*'
+  '/HCM/static/js/',
+  '/HCM/static/img/',
+  '/HCM/static/fonta/',
+  '/HCM/static/css/'
 ];
 
 self.addEventListener("install", event => {
