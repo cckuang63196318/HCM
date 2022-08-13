@@ -1,4 +1,4 @@
-const cacheVersion = "v1.59";
+const cacheVersion = "v1.60";
 const filesToCache = [
   'index.html',
   'manifest.json',
