@@ -1,21 +1,6 @@
-const cacheVersion = "v1.55";
+const cacheVersion = "v1.56";
 const filesToCache = [
-  'static/js/',
-  'static/img/',
-  'static/fonta/',
-  'static/css/',
-  'index.html',
-  'manifest.json',
-  'serviceWorker.js',
-  'innolux-offical.png',
-  'personIcon.png',
-  'working.png',
-  'favicon.ico',
-  'favicon72.png',
-  'favicon96.png',
-  'favicon144.png',
-  'favicon192.png',
-  'favicon512.png'
+
 ];
 
 self.addEventListener("install", event => {
