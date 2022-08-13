@@ -11,7 +11,11 @@ const filesToCache = [
   'favicon96.png',
   'favicon144.png',
   'favicon192.png',
-  'favicon512.png'
+  'favicon512.png',
+  './static/js/*',
+  './static/img/*',
+  './static/fonta/*',
+  './static/css/*'
 ];
 
 self.addEventListener("install", event => {
