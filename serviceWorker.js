@@ -12,10 +12,7 @@ const filesToCache = [
   'favicon144.png',
   'favicon192.png',
   'favicon512.png',
-  '/HCM/static/js/',
-  '/HCM/static/img/',
-  '/HCM/static/fonta/',
-  '/HCM/static/css/'
+  '/HCM/static/js/*.js'
 ];
 
 self.addEventListener("install", event => {
